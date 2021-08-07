@@ -1,2 +1,2 @@
 # Audiobooks_Model-tensorflow-neural-network
-A model to evaluate  a person's chance of returning to a audiobook store based of data the store has
+A model to evaluate  a person's chance of returning to a audiobook store based of data the store has and the csv file is the data it works off. The preprocessing was balancing the dataset so the network wouldn't overfit as the data was hugely imbalanced and splitting it into test, training and validation data and saving those in the npz files.The model file shows the tensorflow model being trained and it saves the model which when tested had an 82% accuracy in the h5 file.
